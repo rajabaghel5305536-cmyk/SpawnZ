@@ -1,0 +1,11 @@
+name: SpawnZ
+main: dev.allenalt.spawnz.SpawnZ
+version: 1.0.0
+api-version: 1.21
+author: Dev_Allenalt_tw
+commands:
+  spawnz:
+    description: Main command for SpawnZ plugin
+    usage: /spawnz <set|delete|help>
+  spawn:
+    description: Teleport to main spawn point
