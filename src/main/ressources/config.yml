@@ -1,0 +1,27 @@
+# ======================
+# SpawnZ Configuration
+# ======================
+
+main: ALLENALT_TW
+sub: SpawnZ
+
+# Teleport delay in seconds
+teleport-delay: 5
+
+messages:
+  no-permission: "§cYou are not authorized to use this command!"
+  teleport: "§bTeleporting in {0}..."
+  no-spawn: "§cSpawn has not been set yet!"
+  actionbar-teleport: "§bTeleporting..."
+  teleported: "§aTeleported!"
+  actionbar-teleported: "§aTeleported!"
+
+admin-help:
+  - "§e§lSPAWNZ"
+  - "§b/spawnz set §f- §7Set spawn location"
+  - "§b/spawnz delete §f- §7Delete spawn location"
+  - "§b/spawn §f- §7Teleport to spawn"
+  - "§e§lSPAWNZ"
+
+player-help:
+  - "§b/spawn §f- §7Teleport to spawn"
